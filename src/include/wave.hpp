@@ -58,7 +58,7 @@ private:
   const size_t nb_patterns;
 
   /**
-   * The actual wave. data.get(index, pattern) is equal to 0 if the pattern can
+   * The actual wave. data.get(index, pattern) is equal to 0 if the pattern cannot
    * be placed in the cell index.
    */
   Array2D<uint8_t> data;
